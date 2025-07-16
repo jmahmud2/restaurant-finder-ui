@@ -1,3 +1,5 @@
+import type { RestaurantSuggestion } from 'src/types';
+
 <template>
   <q-page class="q-pa-md">
     <div class="column items-center q-gutter-md">

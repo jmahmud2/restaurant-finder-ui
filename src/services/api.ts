@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { RestaurantSuggestion } from '../types';
+import type { RestaurantSuggestion } from '../types';
 
 const apiClient = axios.create({
   baseURL: import.meta.env.API_BASE_URL,
